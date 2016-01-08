@@ -1,8 +1,7 @@
 <?php
 testTypedArgument();
 
-function testTypedArgument()
-{
+function testTypedArgument() {
     doEverything(123);  // ok
     doEverything(123.4);  // ok
     doEverything("123");  // ok
